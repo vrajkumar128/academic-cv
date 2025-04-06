@@ -6,8 +6,8 @@ title: Vivek Rajkumar
 # name_pronunciation: viv-AYK RAHJ-koo-mar
 
 # Full name (for SEO)
-first_name: Vivek
-last_name: Rajkumar
+first_name: Vivek Rajkumar
+last_name: University of Pittsburgh
 
 # Status emoji
 status:
@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Undergraduate Student
+role: Graduate Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -25,7 +25,7 @@ organizations:
     url: https://www.pitt.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include artificial intelligence, machine learning, and computational cognitive science.
+bio: My research interests include climate change, machine learning, and computational cognitive science.
 
 # Interests to show in About widget
 interests:
@@ -112,9 +112,9 @@ social:
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  # - icon: cv
-  #   icon_pack: ai
-  #   link: uploads/resume.pdf
+  - icon: cv
+    icon_pack: ai
+    link: uploads/resume.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
