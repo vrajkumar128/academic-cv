@@ -17,16 +17,17 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Hugo Blox Builder.'
+    org_name: 'University of Pittsburgh'
+    description: 'Vivek Rajkumar - Researcher and academic at the University of Pittsburgh. Interested in computer and cognitive sciences. Learn about my research, publications, and academic experience at Pitt.'
     twitter: 'GetResearchDev'
+    keywords: ['Vivek Rajkumar', 'Vivek Rajkumar University of Pittsburgh', 'Vivek Rajkumar Pitt', 'University of Pittsburgh', 'Pittsburgh researcher', 'academic portfolio']
   analytics:
-    google_analytics: ''
+    google_analytics: '' # Add your GA tracking ID if you have one
     baidu_tongji: ''
     google_tag_manager: ''
     microsoft_clarity: ''
   verification:
-    google: ''
+    google: '' # Add Google Search Console verification code
     baidu: ''
 
 # Site header

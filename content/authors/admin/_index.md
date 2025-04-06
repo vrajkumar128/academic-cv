@@ -10,8 +10,8 @@ first_name: Vivek Rajkumar
 last_name: University of Pittsburgh
 
 # Status emoji
-status:
-  icon: ☕️
+# status:
+#   icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -25,7 +25,7 @@ organizations:
     url: https://www.pitt.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include climate change, machine learning, and computational cognitive science.
+bio: My research interests include computational cognitive science, machine learning, and climate change.
 
 # Interests to show in About widget
 interests:
@@ -118,6 +118,14 @@ social:
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
+
+# SEO keywords
+keywords:
+  - Vivek Rajkumar
+  - Vivek Rajkumar University of Pittsburgh
+  - Vivek Rajkumar Pitt
+  - University of Pittsburgh
+  - Pitt
 ---
 
 Hi! I am a recent graduate of the University of Pittsburgh currently interested in cognitive science/AI PhD programs as well as related industry jobs.
