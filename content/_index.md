@@ -107,16 +107,15 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
+        - date_end: ''
           date_start: '2022-04-25'
-          description: "Earned induction into Pitt's chapter of the Phi Beta Kappa national honor society as an undergraduate junior."
-          icon: pitt-seal
-          icon-pack: custom
-          organization: University of Pittsburgh
-          organization_url: https://www.pitt.edu/
-          title: Phi Beta Kapa (Distinguished Junior Member)
-          url: ''
+          description: "Earned induction into Pitt's chapter of the ΦBK national honor society as an undergraduate junior."
+          icon: award
+          icon_pack: fas
+          organization: Xi Chapter of Pennsylvania, University of Pittsburgh
+          organization_url: https://sites.pitt.edu/~pbk/
+          title: Phi Beta Kappa (Distinguished Junior Member)
+          url: 'https://www.pbk.org/'
         - certificate_url: https://www.edx.org
           date_end: ''
           date_start: '2021-01-01'
