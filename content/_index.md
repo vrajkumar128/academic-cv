@@ -55,26 +55,26 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
+        - title: Undergraduate Teaching Assistant
+          company: University of Pittsburgh School of Computing and Information
+          company_url: 'https://www.sci.pitt.edu/'
+          company_logo: pitt
+          location: Pittsburgh, PA
+          date_start: '2020-01-01'
+          date_end: '2023-05-01'
           description: |2-
               Responsibilities include:
 
               * Analysing
               * Modelling
               * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
+        - title: Undergraduate Research Assistant
+          company: Perfetti Lab, University of Pittsburgh Learning and Research Development Center
+          company_url: 'https://www.lrdc.pitt.edu/perfettilab/index.html'
+          company_logo: pitt
+          location: Pittsburgh, PA
+          date_start: '2021-12-31'
+          date_end: '2022-12-31'
           description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
@@ -110,8 +110,7 @@ sections:
         - date_end: ''
           date_start: '2022-04-25'
           description: "Earned induction into Pitt's chapter of the ΦBK national honor society as an undergraduate junior."
-          icon: award
-          icon_pack: fas
+          icon: pitt
           organization: Xi Chapter of Pennsylvania, University of Pittsburgh
           organization_url: https://sites.pitt.edu/~pbk/
           title: Phi Beta Kappa (Distinguished Junior Member)
