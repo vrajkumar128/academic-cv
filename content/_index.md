@@ -78,26 +78,26 @@ sections:
           description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
-  - block: collection
-    id: publications
-    content:
-      title: Selected Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
+  # - block: collection
+  #   id: publications
+  #   content:
+  #     title: Selected Publications
+  #     text: |-
+  #       {{% callout note %}}
+  #       Quickly discover relevant content by [filtering publications](./publication/).
+  #       {{% /callout %}}
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: true
+  #   design:
+  #     columns: '2'
+  #     view: citation
   - block: accomplishments
     id: awards
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Awards'
+      title: 'Awards & Honors'
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -109,12 +109,13 @@ sections:
       items:
         - certificate_url: https://www.coursera.org
           date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          date_start: '2022-04-25'
+          description: "Earned induction into Pitt's chapter of the Phi Beta Kappa national honor society as an undergraduate junior."
+          icon: pitt-seal
+          icon-pack: custom
+          organization: University of Pittsburgh
+          organization_url: https://www.pitt.edu/
+          title: Phi Beta Kapa (Distinguished Junior Member)
           url: ''
         - certificate_url: https://www.edx.org
           date_end: ''
