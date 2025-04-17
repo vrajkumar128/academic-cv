@@ -29,7 +29,7 @@ featured: false
 links:
 # - name: Custom Link
 #   url: https://example.org/
-redirect_uri: https://d-scholarship.pitt.edu/47286/
+external_url: https://d-scholarship.pitt.edu/47286/
 url_pdf: https://d-scholarship.pitt.edu/47286/1/Vivek_Rajkumar_ETDFinal_2024.pdf
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_dataset: '#'
