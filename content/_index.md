@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: 'Vivek Rajkumar'
+title: 'Vivek Rajkumar | University of Pittsburgh'
 date: 2022-10-24
 type: landing
 
