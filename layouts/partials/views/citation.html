@@ -1,0 +1,33 @@
+{{ $item := .item }}
+
+<div>
+    <i class="fas fa-file-alt pub-icon" aria-hidden="true"></i>
+
+    <span class="article-metadata">
+        {{ with $item.Params.authors }}
+        {{ with (index . 0) }}{{ . }}{{ end }}
+        {{ end }}
+
+        {{ if $item.Date }}
+        ({{ $item.Date.Format "2006" }}).
+        {{ end }}
+    </span>
+
+    <a href="{{ if $item.Params.external_url }}{{ $item.Params.external_url }}{{ else }}{{ $item.RelPermalink }}{{ end }}"
+        target="{{ if $item.Params.external_url }}_blank{{ end }}"
+        rel="{{ if $item.Params.external_url }}noopener{{ end }}">
+        {{ $item.Title }}.
+    </a>
+
+    {{ if $item.Params.publication }}
+    {{ $item.Params.publication | markdownify }}.
+    {{ end }}
+
+    {{ if $item.Params.url_pdf }}
+    <div class="btn-links">
+        <a class="btn btn-outline-primary btn-sm" href="{{ $item.Params.url_pdf }}" target="_blank" rel="noopener">
+            PDF
+        </a>
+    </div>
+    {{ end }}
+</div>
