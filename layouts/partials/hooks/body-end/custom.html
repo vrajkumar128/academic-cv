@@ -1,2 +1,13 @@
 {{ $custom_js := resources.Get "js/custom.js" | resources.Minify }}
 <script src="{{ $custom_js.RelPermalink }}"></script>
+<script>
+    if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+            if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                });
+            }
+        });
+    }
+</script>

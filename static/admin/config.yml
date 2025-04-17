@@ -1,0 +1,237 @@
+backend:
+  name: git-gateway
+  branch: main  # Change to your branch name if different
+
+media_folder: 'static/uploads'
+public_folder: 'uploads'
+
+collections:
+  # Homepage sections
+  - name: "homepage"
+    label: "Homepage"
+    files:
+      - file: "content/_index.md"
+        label: "Homepage Content"
+        name: "home"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Type", name: "type", widget: "hidden", default: "landing"}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            types:
+              - label: "About Section"
+                name: "block" 
+                widget: "object"
+                fields:
+                  - {label: "Block Type", name: "block", widget: "hidden", default: "about.biography"}
+                  - {label: "Section ID", name: "id", widget: "string", default: "about"}
+                  - label: "Content"
+                    name: "content"
+                    widget: "object"
+                    fields:
+                      - {label: "Title", name: "title", widget: "string"}
+                      - {label: "Username", name: "username", widget: "string", default: "admin"}
+              
+              - label: "Experience Section"
+                name: "experience"
+                widget: "object"
+                fields:
+                  - {label: "Block Type", name: "block", widget: "hidden", default: "experience"}
+                  - {label: "Section ID", name: "id", widget: "string", default: "experience"}
+                  - label: "Content"
+                    name: "content"
+                    widget: "object"
+                    fields:
+                      - {label: "Title", name: "title", widget: "string"}
+                      - {label: "Date Format", name: "date_format", widget: "string", default: "Jan 2006"}
+                      - label: "Experience Items"
+                        name: "items"
+                        widget: "list"
+                        fields:
+                          - {label: "Position", name: "title", widget: "string"}
+                          - {label: "Company/Organization", name: "company", widget: "string"}
+                          - {label: "Company URL", name: "company_url", widget: "string", required: false}
+                          - {label: "Company Logo", name: "company_logo", widget: "string", required: false}
+                          - {label: "Location", name: "location", widget: "string"}
+                          - {label: "Start Date", name: "date_start", widget: "string"}
+                          - {label: "End Date", name: "date_end", widget: "string", required: false}
+                          - {label: "Description", name: "description", widget: "markdown"}
+                  - label: "Design"
+                    name: "design"
+                    widget: "object"
+                    fields:
+                      - {label: "Columns", name: "columns", widget: "string", default: "2"}
+                
+              - label: "Publications Section"
+                name: "publications"
+                widget: "object"
+                fields:
+                  - {label: "Block Type", name: "block", widget: "hidden", default: "collection"}
+                  - {label: "Section ID", name: "id", widget: "string", default: "publications"}
+                  - label: "Content"
+                    name: "content"
+                    widget: "object"
+                    fields:
+                      - {label: "Title", name: "title", widget: "string"}
+                      - label: "Filters"
+                        name: "filters"
+                        widget: "object"
+                        fields:
+                          - label: "Folders"
+                            name: "folders"
+                            widget: "list"
+                            default: ["publication"]
+                          - {label: "Exclude Featured", name: "exclude_featured", widget: "boolean", default: true}
+                  - label: "Design"
+                    name: "design"
+                    widget: "object"
+                    fields:
+                      - {label: "Columns", name: "columns", widget: "string", default: "2"}
+                      - {label: "View", name: "view", widget: "string", default: "citation"}
+              
+              - label: "Awards Section"
+                name: "awards"
+                widget: "object"
+                fields:
+                  - {label: "Block Type", name: "block", widget: "hidden", default: "accomplishments"}
+                  - {label: "Section ID", name: "id", widget: "string", default: "awards"}
+                  - label: "Content"
+                    name: "content"
+                    widget: "object"
+                    fields:
+                      - {label: "Title", name: "title", widget: "string"}
+                      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+                      - {label: "Date Format", name: "date_format", widget: "string", default: "Jan 2006"}
+                      - label: "Award Items"
+                        name: "items"
+                        widget: "list"
+                        fields:
+                          - {label: "End Date", name: "date_end", widget: "string", required: false}
+                          - {label: "Start Date", name: "date_start", widget: "string"}
+                          - {label: "Description", name: "description", widget: "text", required: false}
+                          - {label: "Icon", name: "icon", widget: "string", required: false}
+                          - {label: "Organization", name: "organization", widget: "string"}
+                          - {label: "Organization URL", name: "organization_url", widget: "string", required: false}
+                          - {label: "Title", name: "title", widget: "string"}
+                          - {label: "URL", name: "url", widget: "string", required: false}
+                  - label: "Design"
+                    name: "design"
+                    widget: "object"
+                    fields:
+                      - {label: "Columns", name: "columns", widget: "string", default: "2"}
+              
+              - label: "Contact Section"
+                name: "contact"
+                widget: "object"
+                fields:
+                  - {label: "Block Type", name: "block", widget: "hidden", default: "contact"}
+                  - {label: "Section ID", name: "id", widget: "string", default: "contact"}
+                  - label: "Content"
+                    name: "content"
+                    widget: "object"
+                    fields:
+                      - {label: "Title", name: "title", widget: "string"}
+                      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+                      - {label: "Autolink", name: "autolink", widget: "boolean", default: true}
+                      - label: "Form"
+                        name: "form"
+                        widget: "object"
+                        fields:
+                          - {label: "Provider", name: "provider", widget: "string", default: "netlify"}
+                          - label: "Netlify"
+                            name: "netlify"
+                            widget: "object"
+                            fields:
+                              - {label: "Enable CAPTCHA", name: "captcha", widget: "boolean", default: true}
+                  - label: "Design"
+                    name: "design"
+                    widget: "object"
+                    fields:
+                      - {label: "Columns", name: "columns", widget: "string", default: "2"}
+  
+  # Publications collection
+  - name: "publications"
+    label: "Publications"
+    folder: "content/publication"
+    path: "{{slug}}/index"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Authors", name: "authors", widget: "list"}
+      - {label: "Publication Date", name: "date", widget: "datetime"}
+      - {label: "Publication Type", name: "publication_types", widget: "list"}
+      - {label: "Publication Name", name: "publication", widget: "string"}
+      - {label: "Publication Short Name", name: "publication_short", widget: "string", required: false}
+      - {label: "Abstract", name: "abstract", widget: "text"}
+      - {label: "Summary", name: "summary", widget: "text", required: false}
+      - {label: "Featured", name: "featured", widget: "boolean", default: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Categories", name: "categories", widget: "list", required: false}
+      - {label: "Redirect URL", name: "redirect_url", widget: "string", required: false}
+      - {label: "PDF URL", name: "url_pdf", widget: "string", required: false}
+      - {label: "Code URL", name: "url_code", widget: "string", required: false}
+      - {label: "Dataset URL", name: "url_dataset", widget: "string", required: false}
+      - {label: "Poster URL", name: "url_poster", widget: "string", required: false}
+      - {label: "Project URL", name: "url_project", widget: "string", required: false}
+      - {label: "Slides URL", name: "url_slides", widget: "string", required: false}
+      - {label: "Source URL", name: "url_source", widget: "string", required: false}
+      - {label: "Video URL", name: "url_video", widget: "string", required: false}
+      - {label: "Content", name: "body", widget: "markdown"}
+  
+  # Author profiles
+  - name: "authors"
+    label: "Authors"
+    folder: "content/authors"
+    path: "{{slug}}/_index"
+    create: true
+    fields:
+      - {label: "Display Name", name: "title", widget: "string"}
+      - {label: "First Name", name: "first_name", widget: "string"}
+      - {label: "Last Name", name: "last_name", widget: "string"}
+      - {label: "Role/Position", name: "role", widget: "string"}
+      - {label: "Is Primary User", name: "superuser", widget: "boolean", default: false}
+      - label: "Organizations"
+        name: "organizations"
+        widget: "list"
+        fields:
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "URL", name: "url", widget: "string", required: false}
+      - {label: "Bio", name: "bio", widget: "text"}
+      - label: "Interests"
+        name: "interests"
+        widget: "list"
+        required: false
+      - label: "Education"
+        name: "education"
+        widget: "object"
+        required: false
+        fields:
+          - label: "Courses"
+            name: "courses"
+            widget: "list"
+            fields:
+              - {label: "Course", name: "course", widget: "string"}
+              - {label: "Institution", name: "institution", widget: "string"}
+              - {label: "Year", name: "year", widget: "number", required: false}
+      - label: "Social Media"
+        name: "social"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Icon", name: "icon", widget: "string"}
+          - {label: "Icon Pack", name: "icon_pack", widget: "string"}
+          - {label: "Link", name: "link", widget: "string"}
+      - {label: "Highlight Name", name: "highlight_name", widget: "boolean", default: false}
+      - {label: "Content", name: "body", widget: "markdown"}
+  
+  # Simple pages
+  - name: "pages"
+    label: "Pages"
+    folder: "content"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Content", name: "body", widget: "markdown"}
