@@ -1,4 +1,11 @@
 document.addEventListener('DOMContentLoaded', function () {
+
+    // Set document title for homepage
+    if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
+        document.title = 'Vivek Rajkumar | University of Pittsburgh';
+    }
+
+    // Grab the dark/light mode toggle icon
     const themeToggle = document.querySelector('.theme-dropdown .nav-link');
 
     // Hide the dropdown menu with CSS
@@ -50,5 +57,33 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Update the icon
         updateIcon();
+    });
+
+    // Find any PDF links in the publications with d-scholarship.pitt.edu and use them to update title links
+    document.querySelectorAll('.view-citation').forEach(item => {
+        // Look for PDF links to d-scholarship
+        const pdfLink = item.querySelector('a[href*="d-scholarship.pitt.edu"]');
+
+        if (pdfLink) {
+            const pdfUrl = pdfLink.getAttribute('href');
+
+            // Extract the base repository URL - for d-scholarship format specifically
+            // Format is typically: https://d-scholarship.pitt.edu/ID/version/filename.pdf
+            const matches = pdfUrl.match(/(https:\/\/d-scholarship\.pitt\.edu\/\d+)\//);
+
+            if (matches && matches[1]) {
+                const baseUrl = matches[1];
+
+                // Find the title link
+                const titleLink = item.querySelector('.article-title a');
+
+                if (titleLink) {
+                    // Update the title link to point to the repository page
+                    titleLink.href = baseUrl;
+                    titleLink.target = '_blank';
+                    titleLink.rel = 'noopener';
+                }
+            }
+        }
     });
 });

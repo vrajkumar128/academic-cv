@@ -62,6 +62,8 @@ projects:
 # slides: example
 ---
 
+<!-- external_url: https://d-scholarship.pitt.edu/47286/ -->
+
 {{% callout note %}}
 Create your slides in Markdown - click the *Slides* button to check out the example.
 {{% /callout %}}
