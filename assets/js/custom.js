@@ -1,4 +1,11 @@
 document.addEventListener('DOMContentLoaded', function () {
+
+    // Set document title for homepage
+    if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
+        document.title = 'Vivek Rajkumar | University of Pittsburgh';
+    }
+
+    // Grab the dark/light mode toggle icon
     const themeToggle = document.querySelector('.theme-dropdown .nav-link');
 
     // Hide the dropdown menu with CSS
@@ -50,5 +57,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Update the icon
         updateIcon();
+    });
+
+    const BPHIL_URL = "https://d-scholarship.pitt.edu/47286/"
+    const PUBLICATION_URLS = [BPHIL_URL];
+
+    // Replace publication title links with the hardcoded links from above
+    document.querySelectorAll('.view-citation').forEach((publication, publicationIndex) => {
+        const titleLink = publication.querySelector('a');
+        titleLink.href = PUBLICATION_URLS[publicationIndex];
+        titleLink.target = '_blank';
+        titleLink.rel = 'noopener';
     });
 });

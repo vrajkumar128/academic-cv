@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
-title: 'Vivek Rajkumar | University of Pittsburgh'
-date: 2022-10-24
+title: ''
+date: 2025-04-17
 type: landing
 
 sections:
