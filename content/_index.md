@@ -63,11 +63,8 @@ sections:
           date_start: '2020-01-01'
           date_end: '2023-05-01'
           description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
+              * Served as a teaching assistant for [CMPINF 0401 Intermediate Programming](https://courses.sci.pitt.edu/courses/view/CMPINF-401), [CS 0445 Algorithms and Data Structures 1](https://courses.sci.pitt.edu/courses/view/CS-0445), [CS 1501 Algorithms and Data Structures 2](https://courses.sci.pitt.edu/courses/view/CS-1501), and [CS 1520 Web Applications](https://courses.sci.pitt.edu/courses/view/CS-1520).
+              * Conducted weekly recitations and office hours, graded student assignments, and aided instructors with curriculum integrity and design.
         - title: Undergraduate Research Assistant
           company: Perfetti Lab, University of Pittsburgh Learning and Research Development Center
           company_url: 'https://www.lrdc.pitt.edu/perfettilab/index.html'
@@ -75,7 +72,10 @@ sections:
           location: Pittsburgh, PA
           date_start: '2021-12-31'
           date_end: '2022-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          description: |2-
+              * Designed experimental materials used to study the significances of the [N400](https://en.wikipedia.org/wiki/N400_(neuroscience)) and [P600](https://en.wikipedia.org/wiki/P600_(neuroscience)) event-related brain potentials in reading comprehension processes.
+              * Conducted IRB-approved EEG-based exams with research participants in the lab.
+              * Processed and analyzed experimental data to draw conclusions that served as the basis of [my Bachelor of Philosophy thesis in psychology](https://d-scholarship.pitt.edu/47286/).
     design:
       columns: '2'
   - block: collection
