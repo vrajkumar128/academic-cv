@@ -69,4 +69,20 @@ document.addEventListener('DOMContentLoaded', function () {
         titleLink.target = '_blank';
         titleLink.rel = 'noopener';
     });
+
+    // Force-fix Phi Beta Kappa date
+    const pbkCard = Array.from(document.querySelectorAll('#awards .card.experience'))
+        .find(card => card.querySelector('.exp-title')?.textContent?.includes('Phi Beta Kappa'));
+    
+    const dateElement = pbkCard.querySelector('.card-subtitle');
+    const orgLink = dateElement.querySelector('a');
+    const divider = dateElement.querySelector('.middot-divider');
+    
+    // Clear current content
+    dateElement.textContent = '';
+    
+    // Reconstruct with correct date
+    if (orgLink) dateElement.appendChild(orgLink);
+    if (divider) dateElement.appendChild(divider);
+    dateElement.appendChild(document.createTextNode("Apr 2022"));
 });

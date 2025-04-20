@@ -108,21 +108,23 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - date_end: ''
-          date_start: '2022-04-25'
+          date_start: '2025-04-25' # Date hack to make PBK appear at the top of the list, rectified in ../assets/js/custom.js
           description: "Earned induction into Pitt's chapter of the ΦBK national honor society as an undergraduate junior."
           icon: pitt
           organization: Xi Chapter of Pennsylvania, University of Pittsburgh
           organization_url: https://sites.pitt.edu/~pbk/
           title: Phi Beta Kappa (Distinguished Junior Member)
           url: 'https://www.pbk.org/'
+          weight: 10
         - date_end: '2023-12-01'
           date_start: '2023-08-01'
-          description: 'One of **ten** recipients of a financial award used to help continue [my climate-related ML research.](https://pitthonors.blog/2023/09/29/my/)'
+          description: 'One of **ten** recipients of a financial award used to help continue [my climate-related ML research](https://pitthonors.blog/2023/09/29/my-curf-introduction/).'
           icon: pitt
           organization: University of Pittsburgh David C. Frederick Honors College
           organization_url: https://www.frederickhonors.pitt.edu/
           title: Chancellor's Undergraduate Research Fellowship
           url: https://pitthonors.blog/chancellors-undergraduate-research-fellowship/
+          weight: 20
         - date_end: '2023-08-01'
           date_start: '2023-05-01'
           description: 'One of **two** recipients of a financial award used to support a research project on using artificial intelligence and machine learning to assess and mitigate the effects of anthropogenic climate change.'
@@ -131,14 +133,16 @@ sections:
           organization_url: https://www.sci.pitt.edu/
           title: SCI Summer Scholar
           url: https://www.sci.pitt.edu/research/undergraduate-research-scholars
+          weight: 30
         - date_end: '2022-08-01'
           date_start: '2023-05-01'
-          description: 'One of thirty-six recipients of a financial award used to support [a research project investigating the relationships of event-related potentials (ERPs) to reading comprehension processes in the brain.](https://pitthonors.blog/2022/05/25/brackenridge-blog-post-1-beginnings/)'
+          description: 'One of thirty-six recipients of a financial award used to support [a research project investigating the relationships of event-related potentials (ERPs) to reading comprehension processes in the brain](https://pitthonors.blog/2022/05/25/brackenridge-blog-post-1-beginnings/).'
           icon: pitt
           organization: University of Pittsburgh David C. Frederick Honors College
           organization_url: https://www.frederickhonors.pitt.edu/
           title: Brackenridge Fellowship
           url: https://pitthonors.blog/brackenridge-research-fellowship/
+          weight: 40
         # - certificate_url: https://www.edx.org
         #   date_end: ''
         #   date_start: '2021-01-01'
