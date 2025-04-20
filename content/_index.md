@@ -131,6 +131,14 @@ sections:
           organization_url: https://www.sci.pitt.edu/
           title: SCI Summer Scholar
           url: https://www.sci.pitt.edu/research/undergraduate-research-scholars
+        - date_end: '2022-08-01'
+          date_start: '2023-05-01'
+          description: 'One of thirty-six recipients of a financial award used to support [a research project investigating the relationships of event-related potentials (ERPs) to reading comprehension processes in the brain.](https://pitthonors.blog/2022/05/25/brackenridge-blog-post-1-beginnings/)'
+          icon: pitt
+          organization: University of Pittsburgh David C. Frederick Honors College
+          organization_url: https://www.frederickhonors.pitt.edu/
+          title: Brackenridge Fellowship
+          url: https://pitthonors.blog/brackenridge-research-fellowship/
         # - certificate_url: https://www.edx.org
         #   date_end: ''
         #   date_start: '2021-01-01'
