@@ -123,6 +123,14 @@ sections:
           organization_url: https://www.frederickhonors.pitt.edu/
           title: Chancellor's Undergraduate Research Fellowship
           url: https://pitthonors.blog/chancellors-undergraduate-research-fellowship/
+        - date_end: '2023-08-01'
+          date_start: '2023-05-01'
+          description: 'One of **two** recipients of a financial award used to support a research project on using artificial intelligence and machine learning to assess and mitigate the effects of anthropogenic climate change.'
+          icon: pitt
+          organization: University of Pittsburgh School of Computing and Information
+          organization_url: https://www.sci.pitt.edu/
+          title: SCI Summer Scholar
+          url: https://www.sci.pitt.edu/research/undergraduate-research-scholars
         # - certificate_url: https://www.edx.org
         #   date_end: ''
         #   date_start: '2021-01-01'
