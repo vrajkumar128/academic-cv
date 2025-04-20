@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vivekrajkumar.netlify.app/sitemap.xml
+Sitemap: https://vivekrajkumar.me/sitemap.xml

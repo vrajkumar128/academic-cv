@@ -25,7 +25,7 @@ organizations:
     url: https://www.pitt.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include computational cognitive science, machine learning, and climate change.
+bio: Vivek Rajkumar is a graduate of the University of Pittsburgh (Pitt) with degrees in Computer Science, Psychology, and Philosophy.
 
 # Interests to show in About widget
 interests:

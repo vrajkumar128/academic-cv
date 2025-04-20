@@ -1,29 +1,31 @@
-{{ if .IsHome }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
   "@id": "{{ .Site.BaseURL }}#person",
   "name": "Vivek Rajkumar",
+  "alternateName": ["Vivek Rajkumar University of Pittsburgh", "Vivek Rajkumar Pitt"],
   "givenName": "Vivek",
   "familyName": "Rajkumar",
   "url": "{{ .Site.BaseURL }}",
   "image": "{{ .Site.BaseURL }}authors/admin/avatar.jpg",
-  "jobTitle": "Researcher",
+  "jobTitle": "Computer Science Graduate",
   "worksFor": {
     "@type": "EducationalOrganization",
     "name": "University of Pittsburgh",
+    "alternateName": "Pitt",
     "url": "https://www.pitt.edu/"
   },
   "alumniOf": [
     {
       "@type": "EducationalOrganization",
       "name": "University of Pittsburgh",
+      "alternateName": "Pitt"
       "url": "https://www.pitt.edu/"
     }
   ],
-  "description": "Researcher and academic at the University of Pittsburgh.",
-  <!-- "knowsAbout": ["Your Research Area 1", "Your Research Area 2", "Your Research Area 3"], -->
+  "description": "Vivek Rajkumar is a graduate of the University of Pittsburgh (Pitt) with degrees in Computer Science, Psychology, and Philosophy.",
+  "knowsAbout": ["Computer Science", "Psychology", "Philosophy", "Cognitive Science", "Artificial Intelligence"],
   "sameAs": [
     "https://www.linkedin.com/in/~vivek",
     "https://github.com/vrajkumar128"
@@ -34,38 +36,3 @@
   }
 }
 </script>
-<!-- {{ else if eq .Type "publication" }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ScholarlyArticle",
-  "name": "{{ .Title }}",
-  "headline": "{{ .Title }}",
-  "author": {
-    "@type": "Person",
-    "@id": "{{ .Site.BaseURL }}#person",
-    "name": "Vivek Rajkumar",
-    "affiliation": {
-      "@type": "Organization",
-      "name": "University of Pittsburgh",
-      "url": "https://www.pitt.edu/"
-    }
-  },
-  "datePublished": "{{ .Date.Format "2006-01-02" }}",
-  "description": "{{ if .Params.abstract }}{{ .Params.abstract }}{{ else }}{{ .Summary }}{{ end }}",
-  "keywords": [{{ range $index, $tag := .Params.tags }}{{ if $index }}, {{ end }}"{{ $tag }}"{{ end }}],
-  {{ if .Params.publication }}
-  "isPartOf": {
-    "@type": "Periodical",
-    "name": "{{ .Params.publication }}"
-  },
-  {{ end }}
-  "publisher": {
-    "@type": "Organization",
-    "name": "{{ if .Params.publisher }}{{ .Params.publisher }}{{ else }}University of Pittsburgh{{ end }}"
-  },
-  "url": "{{ .Permalink }}",
-  "inLanguage": "en"
-}
-</script> -->
-{{ end }}

@@ -1,0 +1,7 @@
+sitemap:
+  disable: false
+  filename: sitemap.xml
+  exclude:
+    - "/*"
+  priority: 0.0 
+  changefreq: ""
