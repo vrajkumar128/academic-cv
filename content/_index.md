@@ -115,6 +115,14 @@ sections:
           organization_url: https://sites.pitt.edu/~pbk/
           title: Phi Beta Kappa (Distinguished Junior Member)
           url: 'https://www.pbk.org/'
+        - date_end: '2023-12-01'
+          date_start: '2023-08-01'
+          description: 'One of **ten** recipients of a financial award used to help continue [my climate-related ML research.](https://pitthonors.blog/2023/09/29/my/)'
+          icon: pitt
+          organization: University of Pittsburgh David C. Frederick Honors College
+          organization_url: https://www.frederickhonors.pitt.edu/
+          title: Chancellor's Undergraduate Research Fellowship
+          url: https://pitthonors.blog/chancellors-undergraduate-research-fellowship/
         # - certificate_url: https://www.edx.org
         #   date_end: ''
         #   date_start: '2021-01-01'
