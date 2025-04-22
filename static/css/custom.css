@@ -1,0 +1,34 @@
+/* Override specific dark mode styles */
+body.dark .experience .col.border-right {
+    border-right-color: #bbdefb !important;
+}
+
+body.dark .experience .badge.border {
+    border-color: #bbdefb !important;
+}
+
+body.dark .card .section-subheading a {
+    color: #bbdefb !important;
+}
+
+body.dark .btn-primary {
+    background-color: #bbdefb !important;
+    border-color: #bbdefb !important;
+}
+
+body.dark .view-citation i {
+    color: #fff !important;
+}
+
+body.dark .view-citation .author-highlighted {
+    color: #fff !important;
+}
+
+body.dark .card:hover {
+    box-shadow: 0 8px 16px rgba(255, 255, 255, .2);
+}
+
+body.dark .form-control:focus {
+    border-color: #bbdefb !important;
+    box-shadow: 0 0 0 0.2rem #c0f6ff !important;
+}

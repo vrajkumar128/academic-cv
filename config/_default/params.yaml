@@ -90,6 +90,8 @@ features:
       repo_id: ''
       category: ''
       category_id: ''
+  custom_css:
+    - "css/custom.css"
   search:
     provider: wowchemy
     algolia:
