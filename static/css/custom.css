@@ -32,3 +32,14 @@ body.dark .form-control:focus {
     border-color: #bbdefb !important;
     box-shadow: 0 0 0 0.2rem #c0f6ff !important;
 }
+
+body.dark .btn-outline-primary {
+    color: #fff !important;
+    border-color: #bbdefb !important;
+}
+
+body.dark .btn-outline-primary:hover {
+    color: #000 !important;
+    background-color: #bbdefb !important;
+    border-color: #bbdefb !important;
+}
