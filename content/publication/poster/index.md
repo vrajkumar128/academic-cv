@@ -1,8 +1,8 @@
 ---
-title: "Investigating the relationships of the N400 and P600 event-related potentials to meaning integration and retrieval processes"
+title: "Using temporal convolutional neural networks to predict water conditions"
 authors:
 - admin
-date: "2024-12-01T00:00:00Z"
+date: "2024-11-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -14,7 +14,7 @@ publishDate: "2024-01-01T00:00:00Z"
 publication_types: ["thesis"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Bachelor of Philosophy Thesis in Psychology"
+publication: "Fall 2024 Research and Creative Fair Poster Presentation"
 publication_short: ""
 
 abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
@@ -29,8 +29,8 @@ featured: false
 links:
 # - name: Custom Link
 #   url: https://example.org/
-external_url: https://d-scholarship.pitt.edu/47286/
-url_pdf: https://d-scholarship.pitt.edu/47286/1/Vivek_Rajkumar_ETDFinal_2024.pdf
+external_url: https://www.undergradstudies.pitt.edu/research-fair/fall-2024-research-and-creative-fair-participants
+# url_pdf: ''
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_dataset: '#'
 # url_poster: '#'
