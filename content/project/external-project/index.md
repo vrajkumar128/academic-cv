@@ -43,4 +43,7 @@ Blog posts tracking <a href="https://www.undergradstudies.pitt.edu/research-fair
   </li>
 </ol>
 
-My GitHub profile: <a href="https://github.com/vrajkumar128">https://github.com/vrajkumar128</a>
+My GitHub Profile: <a href="https://github.com/vrajkumar128">https://github.com/vrajkumar128</a><br />
+My Handshake Profile: <a href="https://app.joinhandshake.com/profiles/y57uu4">https://app.joinhandshake.com/profiles/y57uu4</a><br />
+My WayUp Profile: <a href="https://www.wayup.com/profile/Vivek-Rajkumar-788e0d99a7/">https://www.wayup.com/profile/Vivek-Rajkumar-788e0d99a7/</a><br />
+My LinkedIn Profile: <a href="https://www.linkedin.com/pub/dir/Vivek/Rajkumar/us-0-United-States">https://www.linkedin.com/pub/dir/Vivek/Rajkumar/us-0-United-States</a>
