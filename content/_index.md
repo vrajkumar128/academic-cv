@@ -63,7 +63,7 @@ sections:
           date_start: '2020-01-01'
           date_end: '2023-05-01'
           description: |2-
-              * Served as a teaching assistant for [CMPINF 0401 Intermediate Programming](https://courses.sci.pitt.edu/courses/view/CMPINF-401), [CS 0445 Algorithms and Data Structures 1](https://courses.sci.pitt.edu/courses/view/CS-0445), [CS 1501 Algorithms and Data Structures 2](https://courses.sci.pitt.edu/courses/view/CS-1501), and [CS 1520 Web Applications](https://courses.sci.pitt.edu/courses/view/CS-1520).
+              * Served as a teaching assistant for [CMPINF 0401 Intermediate Programming](https://courses.sci.pitt.edu/courses/view/CMPINF-401), [CS 0445 Algorithms and Data Structures 1](https://courses.sci.pitt.edu/Sections/index/2224/public), [CS 1501 Algorithms and Data Structures 2](https://people.cs.pitt.edu/~skhattab/cs1501/index-2221.html), and [CS 1520 Web Applications](https://courses.sci.pitt.edu/courses/view/CS-1520).
               * Conducted weekly recitations and office hours, graded student assignments, and aided instructors with curriculum integrity and design.
         - title: Undergraduate Research Assistant
           company: Perfetti Lab, University of Pittsburgh Learning and Research Development Center
