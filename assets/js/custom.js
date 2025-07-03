@@ -59,8 +59,9 @@ document.addEventListener('DOMContentLoaded', function () {
         updateIcon();
     });
 
-    const BPHIL_URL = "https://d-scholarship.pitt.edu/47286/"
-    const PUBLICATION_URLS = [BPHIL_URL];
+    const BPHIL_URL = "https://d-scholarship.pitt.edu/47286/";
+    const POSTER_URL = "https://www.undergradstudies.pitt.edu/research-fair/fall-2024-research-and-creative-fair-participants";
+    const PUBLICATION_URLS = [BPHIL_URL, POSTER_URL];
 
     // Replace publication title links with the hardcoded links from above
     document.querySelectorAll('.view-citation').forEach((publication, publicationIndex) => {
